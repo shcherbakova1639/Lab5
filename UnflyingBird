@@ -1,0 +1,9 @@
+public abstract class UnflyingBird: Bird
+    {
+        public UnflyingBird(int age) : base(age)
+        {
+        }
+        public abstract void Run();
+        public abstract int RunningSpeed();
+
+    }
