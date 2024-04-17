@@ -1,0 +1,7 @@
+public abstract class FlyingBird: Bird
+    {
+        public FlyingBird(int age) : base(age)
+        {
+        }
+        public abstract int MaxFlyingHigh();
+    }
