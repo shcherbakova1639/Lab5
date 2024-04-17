@@ -1,0 +1,16 @@
+public class Eagle: FlyingBird
+    {
+        public Eagle(int age) : base(age)
+        {
+        }
+
+        public override void Fly()
+        {
+            Console.WriteLine("Eagle can fly.");
+        }
+
+        public override int MaxFlyingHigh()
+        {
+            return 4000;
+        }
+    }
