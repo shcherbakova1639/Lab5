@@ -1,0 +1,22 @@
+public class Ostrich: UnflyingBird
+    {
+        public Ostrich(int age) : base(age)
+        {
+        }
+
+        public override void Fly()
+        {
+            Console.WriteLine("Ostrich can not fly.");
+        }
+
+        public override void Run()
+        {
+            Console.WriteLine("Ostrich running fast.");
+        }
+
+        public override int RunningSpeed()
+        {
+            return 70;
+        }
+
+    }
