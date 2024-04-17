@@ -1,0 +1,21 @@
+ public class Penguin: UnflyingBird
+    {
+        public Penguin(int age) : base(age)
+        {
+        }
+
+        public override void Run()
+        {
+            Console.WriteLine("Penguin can not run fast.");
+        }
+
+        public override void Fly()
+        {
+            Console.WriteLine("Penguin can not fly.");
+        }
+
+        public override int RunningSpeed()
+        {
+            return 4;
+        }
+    }
